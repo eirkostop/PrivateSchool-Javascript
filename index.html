@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Private School</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="ourschoolicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-overlay">
+        <nav class="navbar navbar-light navbar-expand-md navbar-custom d-flex align-items-end shadow px-5 mb-5">
+            <a class="navbar-brand mb-1"><img src="ourschoollogo.png" alt="our-logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="courses">COURSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="students">STUDENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="trainers">TRAINERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="assignments">ASSIGNMENTS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main role="main" class=" mx-5 ">
+            <div class="container">
+                <div class="row mt-4 justify-content-between">
+                    <div class="col-md-6  mb-2">
+                        <h2></h2>
+                    </div>
+                    <div class="col-md-6  mb-2">
+                        <div class="input-group ">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text">PER COURSE &nbsp;&nbsp; </span>
+                            </div>
+                            <select id="filterPerCourse" class="custom-select">
+                            </select>
+                            <select id="filterPerStudent" class="custom-select">
+                            </select>
+                            <div class="input-group-append">
+                                <button class="btn btn-custom btn-outline-secondary" type="button"><i
+                                        class="fas fa-filter"></i></button>
+                            </div>
+                        </div>
+                        <p class="invalid-message" style="display:none">invalid message</p>
+                    </div>
+                </div>
+                <table class="table">
+                    <thead class="thead-custom">
+                        <!-- Column titles appear here -->
+                    </thead>
+                    <tbody>
+                        <!-- Details appear here
+                        "Edit" forms here
+                        "Add new" forms here -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+        <script src="main.js"></script>
+</body>
+
+</html>

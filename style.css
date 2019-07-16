@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "intro";
+    src: url("IntroHeadR-Base.otf");
+}
+.navbar-brand>img{height:125px}
+h2,
+th {
+    font-family: "Intro" ;
+}
+
+.navbar-custom{background: linear-gradient(#fcfcfc,#ffffff)!important; opacity: 0.8;}
+.navbar-custom li a {
+    font-family: "Intro";
+    font-size: 1.4em 
+}
+
+
+.btn{border:#ced4da 1px solid; background-color: white}
+
+.input-group .btn, .input-group .dropdown-menu{
+    background-color:#FDF491;
+    font-family:"Intro";
+}
+tbody > tr {
+    transition:0.3s;
+}
+tbody>tr:hover {
+    background-color: #FDF491 ;
+}
+
+.thead-custom,
+tbody tr:last-child, .thead-custom,
+tbody tr:last-child:hover{
+    background-color: rgb(86, 164, 212, 0.6)
+}
+
+.input-group-text {
+    background-color: #FDF491;
+    font-family:"Intro";
+}
+
+.bg-overlay {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("background.bmp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    background-attachment: fixed;
+}
+input[type=date]::-moz-clear { display: none; }
+input[type="date"]::-webkit-inner-spin-button,    
+input[type="date"]::-webkit-clear-button { display: none; }
+input[type="date"]::-webkit-clear-button
+{
+    display: none; /* Hide the button */
+    -webkit-appearance: none; /* turn off default browser styling */
+}
+input[type="number"],input[type="date"] {
+    -moz-appearance: textfield;
+}
+.invalid-message, .is-invalid {
+    text-align: center;
+    color: indianred;
+}
